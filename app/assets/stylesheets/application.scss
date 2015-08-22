@@ -1,0 +1,35 @@
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+//=require_tree
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "csshake.min";
+body{
+  background:#F7FBFF;
+  .main{
+    padding:0px;
+    color:rgb(118, 118, 127);
+    .nav_bar{
+      background: rgba(13, 180, 228, 0.39);
+      .logo{
+        img{
+          border-radius:3px;
+        }
+      }
+      .menu_bar{
+        text-align: right;
+        .nav_bar_list{
+          li{
+            display: inline-block;
+            list-style : none ;
+          }
+        }
+      }
+    }
+    .contex_middle{
+      padding:0px;
+    }
+    .footer{
+      background: #314656;
+    }
+   }
+}

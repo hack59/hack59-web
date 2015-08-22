@@ -1,0 +1,50 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.contex_middle{
+  .fetures{
+    padding:0px;
+    .contex{
+      padding:0px;
+      .img{
+        height:600px;
+        padding:0px;
+        display:block;
+        background-image: image-url('feature_background.jpg');
+        background-size: cover;
+        background-repeat:no-repeat;
+      }
+      .middle_block{
+        padding: 0px;
+        .title{
+          padding: 0px 0px 0px 50px;
+        }
+        .context{
+          padding: 0px 0px 0px 50px;
+        }
+      }
+      .mini_context{
+        color:#FBCDDF;
+        padding:50px 0px 0px 0px;
+        .title{
+          color:white;
+        }
+      }
+    }
+  }
+  .animous{
+    padding:50px 0px 50px 0px;
+    .contex{
+      .animous_block{
+        padding:50px 0px 0px 0px;
+        .img{
+          padding: 0px 0px 0px 50px;
+        }
+      }
+    }
+  }
+  .map{
+    padding:50px 0px 50px 0px;
+    background-color: #E4E4E4;
+  }
+}

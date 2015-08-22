@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hack59</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="main col-md-12">
+    <div class="nav_bar col-md-12">
+      <%= render partial: "shard/nav_bar"%>
+    </div>
+    <div class="contex_middle col-md-12">
+      <%= yield %>
+    </div>
+    <div class="footer col-md-12">
+      <%= render partial: "shard/footer"%>
+    </div>
+  </div>
+</body>
+</html>
